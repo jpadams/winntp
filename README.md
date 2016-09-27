@@ -11,7 +11,7 @@
 
 ##Overview
 
-This module configured NTP servers on Windows machines.
+This module configures NTP servers on Windows machines.
 
 ##Module Description
 
@@ -36,7 +36,7 @@ In this example the two servers that are passed as variables will be set on all 
 
 ##Parameters
 
-The following parameters are available in the `::time` class:
+The following parameters are available in the `winntp` class:
 
 ###`servers` (optional)
 Specifies the time servers to be set.  
@@ -69,6 +69,8 @@ The module is compatiable with Windows machines.
 ##References
 
 These reference articles were used to formulate this modules functionality:
+
 [https://technet.microsoft.com/windows-server-docs/identity/ad-ds/get-started/windows-time-service/windows-time-service-tools-and-settings](https://technet.microsoft.com/windows-server-docs/identity/ad-ds/get-started/windows-time-service/windows-time-service-tools-and-settings)
+
 [https://blogs.msdn.microsoft.com/w32time/2008/02/26/configuring-the-time-service-ntpserver-and-specialpollinterval/](https://blogs.msdn.microsoft.com/w32time/2008/02/26/configuring-the-time-service-ntpserver-and-specialpollinterval/)
 
